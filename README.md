@@ -1,5 +1,4 @@
 # Ethereum URL Shortener
-
-Made using [EthersJS library](https://ethers.io)
-
-[smart contract source code](https://ethfiddle.com/xR5sZrU10t)
+Powered by Metamask and POA Network
+POA contract located at
+https://blockscout.com/poa/core/address/0x3038289e5cbe89883f1bab41a48008db75e4df48/transactions
