@@ -41,7 +41,7 @@ const isValidUrl = (string) => {
 
 function initContract() {
     let provider = new ethers.providers.Web3Provider(web3.currentProvider);
-    let address = "0x4b8241f24537d2539d0b310bc074fd68a782e182";
+    let address = "0x3038289e5cbe89883f1bab41a48008db75e4df48";
     let abi = [
         {
             "constant": false,
@@ -171,7 +171,7 @@ async function shorten() {
             console.log('NOT MY EVENT');
             return
         }
-        $("#info").html( "<p>transaction confirmed</p> <a target='_blank' href='https://ropsten.etherscan.io/tx/{0}'>view tx on blockchain</a><br>".f(tx.hash) );
+        $("#info").html( "<p>transaction confirmed</p> <a target='_blank' href='https://blockscout.com/poa/core/tx/{0}'>view tx on blockchain</a><br>".f(tx.hash) );
         var shortUrl = '{0}/s?id={1}'.f(window.location.origin, linkId.toNumber())
         $("#info").prepend( "Short URL: <a target='_blank' href='{0}'>{0}</a><br>".f(shortUrl) );
         console.log("EVENT LISTENER", shortUrl, linkId.toNumber(), linkUrl);
