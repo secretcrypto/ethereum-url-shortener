@@ -42,7 +42,7 @@
                         <div class="navbar-end">
                             
                             <span class="navbar-item">
-                                <a class="button is-white is-outlined" target='_blank' href="https://ropsten.etherscan.io/address/0x4b8241f24537d2539d0b310bc074fd68a782e182">
+                                <a class="button is-white is-outlined" target='_blank' href="https://blockscout.com/poa/core/address/0x3038289e5cbe89883f1bab41a48008db75e4df48/transactions">
                                     <span class="icon">
                                         <i class="fa fa-book"></i>
                                     </span>
@@ -67,12 +67,12 @@
               <div class="modal-background"></div>
               <div class="modal-card">
                 <header class="modal-card-head">
-                  <p class="modal-card-title">Metamask not detected!!</p>
+                  <p class="modal-card-title">Metamask not detected</p>
                   <button class="delete close" aria-label="close"></button>
                 </header>
                 <section class="modal-card-body" style="color:black">
                     <img style="width:100%" src="https://metamask.io/img/ethereum-metamask-chrome.png">
-                  <p>Please enable <a href="https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en">METAMASK(ropsten network)</a> to continue. Metamask is used to generate and store short urls on the ethereum blockchian, you may continue to use the shortened urls without Metamask. Eg <a target="_blank" href="https://0x.now.sh/s?id=23">0x.now.sh/s?id=23</a> </p>
+                  <p>Please enable Metamask and connect to the POA Network to continue</p>
                 </section>
 
               </div>
@@ -86,7 +86,7 @@
                             URL Shortener
                         </h1>
                         <h2 class="subtitle">
-                            Powered by <a href="https://ethereum.org">Ethereum Blockchain</a>
+                        Powered by Metamask and POA Network
                         </h2><br>
                         <div class="box">
                             <div class="field is-grouped">
@@ -116,31 +116,7 @@
     <script async type="text/javascript" src="scripts/app.js"></script>
     <script type="text/javascript" src='https://dansup.github.io/bulma-templates/js/bulma.js'></script>
     <script>
-        (function(d, h, m){
-            var js, fjs = d.getElementsByTagName(h)[0];
-            if (d.getElementById(m)){return;}
-            js = d.createElement(h); js.id = m;
-            js.onload = function(){
-                window.makerWidgetComInit({
-                position: "right",          
-                widget: "mqdcmnk3szpig9ta-2k5sfsqvnntd6pjy-11mt0bom2sqq66si"                
-            })};
-            js.src = "https://makerwidget.com/js/embed.js";
-            fjs.parentNode.insertBefore(js, fjs)
-        }(document, "script", "dhm"))
-    </script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97201267-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-97201267-2');
-    </script>
-
+ 
 </body>
-
 
 </html>
